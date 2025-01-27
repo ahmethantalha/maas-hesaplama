@@ -1,0 +1,65 @@
+#maas-hesaplama-formu label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#maas-hesaplama-formu input[type="number"],
+#maas-hesaplama-formu select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+#maas-hesaplama-formu input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#hesapla-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#sonuclar {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#sonuclar p {
+    margin-bottom: 5px;
+}
+
+#aylik-sonuclar {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#aylik-sonuclar th, #aylik-sonuclar td {
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: left;
+}
+
+#aylik-sonuclar th {
+    background-color: #f0f0f0;
+}
+
+#toplam-satir {
+    font-weight: bold;
+}
+
+#aylik-sonuclar td:nth-child(n+2) {
+  text-align: right;
+}
+
+#toplam-satir td{
+  text-align: right;
+}
+
+#toplam-satir td:first-child {
+  text-align: left;
+}
